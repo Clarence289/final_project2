@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel ="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+  
+
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+ 
+</head>
+<body>
+  <div class = "navigation-bar">
+    <div id ="navigation-container">
+      
+      <ul>
+        <li id = "list"><a href="index.html">home</a></li>
+          <li id = "list"><a href="About.html">About us</a></li>
+            <li id ="list"><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      
+  
+      </div>
+     
+  <div class  = "container-box">
+    <div class ="bg">
+      
+      <img src ="images/logo.svg" class ="log">
+    <img src ="images/bg-pattern-desktop.svg" class ="bgweb">
+    
+    
+    <img src = "images/hero-desktop.jpg" class =" web">
+  <h1 class = "txt1"> WE'RE </h1>
+  <h2 class = "txt2"> COOMING</h2>
+    <h2 class="txt3">SOON</h2>
+<p class ="para1">Hello fellow shoppers! We're currently building our new </p>
+  <p class = "para2">fashion store. Add your email below to stay up-to-date with</p>
+<p class ="para3">announcements and our launch deals.</p>
+  
+    </div>
+    
+   
+  
+
+  
+  
+  </div>
+  <div class ="frm">
+    <form name ="myFORM" action="https://formspree.io/f/mlezbarl" onsubmit="return validateForm()"  method="POST">
+
+   <label>
+     <input type ="email" name ="email" placeholder="email">
+     <button type="submit">></button>
+   </label>
+  </div>
+  <script>
+     if(document.myFORM.email.value == ""){
+            alert("Enter valid email address");
+            document.myFORM.email.focus();
+            return false;
+     }
+  </script>
+  <footer>
+    <div class = "iconn">
+      <a href="#" class="fa fa-facebook"></a>  
+      <a href="#" class="fa fa-twitter"></a>  
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-youtube"></a> 
+    </div>
+      <p>best shopping clothes across the world</p>
+
+      
+      <p class ="fff">Copyright &copy; 2023 All rights reserved by clarence Inc.</p>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Clarence Sithole</a>.
+    </p>
+  </footer>
+</body>
+</html>

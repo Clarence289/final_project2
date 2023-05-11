@@ -1,0 +1,399 @@
+
+
+body{
+    
+    
+	background-image: url("images/bg-pattern-desktop.svg");
+    margin:auto;
+    padding:auto;
+    background-color: white;
+}
+
+.log{
+    position: relative;
+
+z-index: 2;
+margin-top: 40px;
+margin-right: 100px;
+height:30px;
+
+
+z-index: 2;
+margin-left: 120px;
+}
+
+
+
+.navigation-bar{
+	width:100%;
+	height: 75px;
+	background-color:ffe4e1;
+}
+.navigation-bar ul{
+	padding: 0px;
+	margin:0px;
+	text-align: center;
+	float:right;
+	background-color:#ffe4e1;
+    margin-bottom: 30px;;
+}
+#navigation-container{
+	position:relative;
+	background-color:#ffe4e1;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top:0px;
+    
+}
+.navigation-bar ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+.navigation-bar a{
+	text-decoration: none;
+	 color:black;
+	font-size: 16px;
+	padding: 5px 15px;
+	opacity: 0.7;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	margin-right: 2px;
+    
+    
+}
+.navigation-bar li{
+	display:inline-block;
+	margin-left: 75px;
+	padding-top: 10px;
+	margin-top: 40px;
+	position: relative;
+    
+}
+.container-box{
+    width:100%;
+    height:480px;
+    display: flex;
+margin: -7% auto 20px auto;
+position:relative;
+justify-content: space-evenly;
+margin-top: 0px;
+align-items: center;
+border: ;
+border-radius: 20px;
+box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+background-color:white ;
+
+
+}
+.text-container{
+width: 690px;
+margin-top: 2px;
+height: 200px;
+padding-bottom: 100px;
+margin-left: 100px;
+}
+.colls{
+    height: 480px;
+    width: 50%;
+float: left;
+margin-left: 0px;;
+background-color: #ffbca4;
+
+}
+
+.merg{
+    height: 480px;
+    width: 50%;
+
+margin-left: 0px;
+background-color: #ffbca4;
+
+}
+.txt1 {
+    letter-spacing: 3px;
+    margin-left: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    color:pink;
+    text-transform: capitalize;
+    
+}
+h1{
+    margin-left:450px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+color:#ffbca4;    
+}
+
+.txt2{
+    letter-spacing: 3px;
+    margin-left: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+    text-transform: capitalize;
+    
+}
+.txt3{
+    letter-spacing: 3px;
+    margin-left:100px;
+    font-size: 40px;
+    font-weight: bold;
+    color:pink;
+    text-transform: capitalize;
+}
+
+button{
+    
+    background-color: pink;
+    color:white;
+    text-transform: capitalize;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+}
+.boxes-container{
+    display: flex;
+	justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    height: 260px;
+    background-repeat: no-repeat;
+	 box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+     background-color: white;
+}
+.box1{
+    width:350px;
+    height:250px;
+    border: ;
+}
+.box2{
+
+width:350px;
+height:250px;
+border: ;
+}
+.box3{
+    width:348px;
+    height:250px;
+    border:;
+}
+.imege{
+    height:250px;
+    width:250px;
+    margin-right: 20px;
+
+}
+.txt-box{
+    float:right;
+    margin-right: 5px;
+    text-align: center;
+    width: 70px;
+}
+.b1{
+    color:#ffbca4;
+    text-decoration: dashed;
+    font-size:20px;
+    text-transform: capitalize;
+    margin-right: 50px;
+}
+.b2{
+    color:#ffbca4;
+    text-decoration: dashed;
+    font-size:20px;
+    text-transform: capitalize;
+    margin-right: 50px;
+}
+.b3{
+    color:#ffbca4;
+    text-decoration: dashed;
+    font-size:18px;
+    text-transform: capitalize;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+}
+.b2,.b3{
+    color:black;
+    text-decoration: dashed;
+    font-size:20px;
+    text-transform: capitalize;
+}
+
+.text-cont{
+    width: 670px;
+    align-items: center;
+    
+}
+
+.about-txt{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+}
+.txtbig{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    margin-left: 60px;
+    color:black;
+    font-size: 80px;
+
+}
+.btn2{
+    margin-left: 70px;
+    margin-bottom: 40px;
+    background-color:#ffbca4;
+   
+    color:white;
+}
+.footer-contact{
+    width:300px;
+    height:200px;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 5px;
+}
+
+.footer-contact p{
+    margin-left: 5px;
+    font-family: calibri;
+	font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize; 
+    margin-right: 10px;
+}
+.container-wrap{
+    display: flex;
+	justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.footer-about{
+    width:150px;
+    height:120px;
+    
+    justify-content: center;
+    text-align: justify;
+    margin-left:5px;
+    
+
+}
+.footer-categories ul li{
+    
+    
+    display:inline-block;
+}
+.footer-categories{
+    width:300px;
+    height:200px;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: justify;
+    margin-left: 100px;
+
+}
+.footer-categories p{
+    margin-left: 5px;
+    font-family: calibri;
+	font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+	
+}
+
+
+.fa{
+	padding: 10px;
+	text-align: center;
+	margin: 5px 2px;
+	font-size: 30px;
+	width:60px;
+	display:inline-block;
+	position: relative;
+	padding-top: 10px;
+	margin-top:30px;
+	text-decoration: none;
+}
+
+.iconn{
+	float: left;
+
+}
+.fa-facebook {  
+  background: #3B5998;  
+  color: white;  
+}  
+
+.fa-twitter {  
+  background: #55ACEE;  
+  color: white;  
+}  
+.fa-instagram {  
+  background: #125688;  
+  color: white;  
+}  
+
+.fa-youtube {  
+  background: #bb0000;  
+  color: white;  
+}  
+footer{
+	height:160px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color:#ffe4e1;
+	width: 100%; 
+}
+
+footer p{
+	font-family: calibri;
+    color: black;
+}
+
+footer p:nth-child(1){
+	font-weight: bold;
+	color: black;
+	line-height: 10px;
+
+}
+footer p:nth-child(2){
+	font-size: 16px;
+	color:black;
+	width: 600px;
+	text-align: center;
+}
+.fff{
+    font-weight: bold;
+	color: black;
+	
+}
+
+
+
+
+
+
+

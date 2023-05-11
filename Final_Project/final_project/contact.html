@@ -1,0 +1,142 @@
+
+    
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel ="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    
+    <title>Contact us</title>
+   
+  </head>
+  
+  
+  
+    <body>
+      <div class = "navigation-bar">
+          <div id ="navigation-container">
+             
+            
+            <ul>
+              <li id = "list"><a href="index.html">home</a></li>
+                <li id = "list"><a href="About.html">About us</a></li>
+                  <li id ="list"><a href="contact.html">Contact us</a></li>
+                </ul>
+                <img src ="images/logo.svg" class ="log">
+              </div>
+
+      </div>
+              <div class ="text-container">
+                <h2>we will like you to contact us</h2>
+                <p class ="txt-p">whether you have question about pricing, features</p>
+                <p class ="txt-p">or anything our team is ready to answer your questions</p>
+              </div>
+
+              <div class="background">
+                <div class="container">
+                  <div class="screen">
+              <div class="screen-header">
+                      <div class="screen-header-left">
+                <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                      </div>
+                      <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                      </div>
+                    </div>
+                    <div class="screen-body">
+                      <div class="screen-body-item left">
+                        <div class="app-title">
+                          <span>CONTACT</span>
+                          <span>US</span>
+                        </div>
+                        <div class="app-contact">CONTACT INFO : +27 7849 15122</div>
+                      </div>
+                      <div class="screen-body-item">
+                        <form name ="myFORM" action="https://formspree.io/f/mlezbarl" onsubmit="return validateForm()"  method="POST">
+
+                        <div class="app-form">
+                          <div class="app-form-group">
+                            <input type = "Name" name="Name" placeholder="enter your name" class="app-form-control">
+                            
+                          </div>
+                          <div class="app-form-group">
+                            <input type = "Surname" name="Surname" placeholder="enter your surname" class="app-form-control" >
+                             
+                          </div>
+                          <div class="app-form-group">
+                            <input type="email" name="email" placeholder="enter your email"  class="app-form-control" >
+                           
+                          </div>
+                          <div class="app-form-group message">
+                            <textarea name="message" placeholder="Message..................." class="app-form-control"></textarea>
+                            
+                          </div>
+                          <div class="app-form-group buttons">
+                            
+		                        
+                            
+                            <button type="submit" class="app-form-button">SEND</button>
+                            
+                          </div>
+
+                        </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+               
+                </div>
+              </div>
+              <script>
+                function validateForm(){
+        if(document.myFORM.Name.value == ""){
+            alert("Name is required");
+            document.myFORM.Name.focus();
+            return false;
+        } 
+
+        if(document.myFORM.Surname.value == ""){
+            alert("Surname is required");
+            document.myFORM.Surname.focus();
+            return false;
+        }
+       
+        if(document.myFORM.email.value == ""){
+            alert("Enter valid email address");
+            document.myFORM.email.focus();
+            return false;
+
+        }
+        if(document.myFORM.message.value == ""){
+            alert("message is required");
+            document.myFORM.message.focus();
+            return false;
+        }
+        return( true );
+        
+    }
+              </script>
+              
+    </body>
+  </html>     
+                    
+                
+                
+                
+                
+                
+                
+       
+    
+    </body>
+
+</html>
